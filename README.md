@@ -41,7 +41,7 @@ Apabila teman kita menjalankan mengunakan verison go yg lebih lama maka akan ter
 Terjadi conflict pada bagian function CetakInfo di line 29. itu terjadi kerena adanya perbedaaan pada line yg sama dari kedua branch itu. Masalah itu bisa diselesaikan dengan memilih versi yang mana yg benar untuk diterapkan misal dari merge tadi adalah versi incoming merge.
 
 ## Kenapa .gitignore Penting
-(tulis di sini)
+Apabila file build ataupun ide ikut tercommit maupun push akan menyebakan error build pada rekan tim kita yg melakukan pull dari file build kia
 
 ## Refleksi
-(tulis di sini)
+saya mengalami kesusahan pada level 3. karena saya mengira bahwa hanya ada 1 return saja yang di tandai dengan "TODO". Saya akhirnya tahu bahwa saya salah paham.
