@@ -35,7 +35,7 @@ Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (l
 Commit adalah menyimpan perubahan yang telah kita lakukan sementara di local atau hanya di perangakat yg kita gunakan dan hanya bisa kita lihat sendiri. Sedangkan Push adalah menetapkan perubahan yg telah commit dan sekarang perubahan yg telah kita lakukan tidak terjadi hanya di local tetapi bisa dilihat orang lain juga. Apabila ada satu orng yg melakukan commit dan lupa untuk melakukan push maka perubahan yang dilakukan tidak akan terlihat oleh orang lain.
 
 ## Reproducibility
-(tulis di sini)
+Apabila teman kita menjalankan mengunakan verison go yg lebih lama maka akan terjadi compilation error. apabila mengunakan versi yg lebih baru akan tetep berjalan degan baik.
 
 ## Catatan Merge Conflict
 (tulis di sini)
