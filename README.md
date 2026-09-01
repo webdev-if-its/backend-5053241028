@@ -38,7 +38,7 @@ Commit adalah menyimpan perubahan yang telah kita lakukan sementara di local ata
 Apabila teman kita menjalankan mengunakan verison go yg lebih lama maka akan terjadi compilation error. apabila mengunakan versi yg lebih baru akan tetep berjalan degan baik.
 
 ## Catatan Merge Conflict
-(tulis di sini)
+Terjadi conflict pada bagian function CetakInfo di line 29. itu terjadi kerena adanya perbedaaan pada line yg sama dari kedua branch itu. Masalah itu bisa diselesaikan dengan memilih versi yang mana yg benar untuk diterapkan misal dari merge tadi adalah versi incoming merge.
 
 ## Kenapa .gitignore Penting
 (tulis di sini)
