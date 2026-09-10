@@ -16,7 +16,7 @@ func HitungTotalPesanan(qty []int, hargaSatuan []float64) float64 {
 		return 0
 	}
 	var total float64 = 0
-	for i := 0; i < len(qty); i++{
+	for i := 0; i < len(qty); i++ {
 		total += float64(qty[i]) * hargaSatuan[i]
 	}
 	return total
@@ -27,11 +27,23 @@ func TerapkanPajak(total float64, tarifPajak float64) float64 {
 }
 
 func HitungDiskon(total float64) float64 {
-	panic("belum diimplementasikan")
+	var diskon float64
+	if total < 500000 {
+		diskon = 0
+	} else if total >= 500000 && total < 1000000{
+		diskon = 0.05
+	} else{
+		diskon = 0.1
+	}
+	return total * diskon
 }
 
 func TotalSetelahDiskon(qty []int, hargaSatuan []float64, tarifPajak float64) float64 {
-	panic("belum diimplementasikan")
+	var total float64
+	total = HitungTotalPesanan(qty,hargaSatuan)
+	total -= HitungDiskon(total)
+	total = TerapkanPajak(total,tarifPajak)
+	return total
 }
 
 func ValidasiPesanan(qty []int, hargaSatuan []float64) (bool, string) {
